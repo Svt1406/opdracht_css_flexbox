@@ -1,0 +1,146 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+    color:red;
+}
+
+.soft-border {
+    border: 2px solid deeppink;
+    margin: 25px;
+    padding: 10px;
+    width: auto;
+}
+
+.center-title {
+    color: coral;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 1276px;
+    padding: 10px;
+}
+
+.navigation-links li {
+    display: inline;
+    color: deeppink;
+    text-decoration: none;
+    width: 100%;
+    max-width: 1276px;
+    text-align: center;
+}
+
+.navigation-links a:link, a:visited {
+    background-color: deeppink;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+footer{
+    color: coral;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.email a:link {
+    text-decoration: none;
+    background-color: deeppink;
+    color: white;
+    border:1px solid black;
+    padding: 5px;
+}
+
+.input {
+    text-align: left;
+    background-color:deeppink;
+    color: white;
+}
+
+.submit, .reset {
+    background-color: deeppink; 
+    color: white;
+    padding: 5px;
+}
+
+.file {
+    background-color: deeppink;
+    color: white;
+}
+
+.textarea {
+    background-color:deeppink;
+    color: white;
+    display: block;
+    text-align: left;
+}
+
+.container {
+    margin: 5px;
+    padding: 5px;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.blogpost {  
+    border: 1px solid deeppink;
+    width: 300px;
+    text-align: center;
+}
+
+.box-1 {
+    align-self: flex-start;
+    flex: 1 1 auto;
+}
+
+.box-2 {
+   align-self: center;
+   flex: 1 2 auto;
+}
+
+.box-3 {
+    align-self: flex-end;
+    flex: 1 1 auto;
+}
+
+.box-4 {
+    align-self: center;
+    flex: 1 2 auto;
+}
+
+.box-5 {
+    align-self: flex-start;
+    flex: 1 1 auto;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1024px) {
+    body {  
+        background-color: beige;
+        color: deeppink;
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {    
+        color: deeppink;
+        font-size: 12px;
+    }
+} 
+
+
+
+
+
+
+

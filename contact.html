@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first webpage</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+         <header class="soft-border">
+         <h1 class="center-title"> Contact</h1> 
+         </header>
+            <nav class="soft-border">
+                <ul class="navigation-links">
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul> 
+            </nav>
+        <main class="soft-border">
+            <form name="contact" type="file" method="post" data-netlify="true">
+            <p>
+                <label for="name">Naam:</label><br>
+                <input class="input" type="text" name="name"/>
+            </p>    
+            <p>
+                <label for="email">Email:</label><br>
+                <input class="input" type="email" name="email"/>
+            </p>
+            <p>
+                <label for="telefoonnummer"> Telefoonnummer:</label><br>
+                <input class="input" type="tel" name="tel">
+            </p>
+            <p>
+                <label for="birthday"> Geboortedatum:</label><br>
+                <input class="input" type="date" name="birthday">
+            </p>
+            <p>
+                <h3> Geslacht:</h3>
+                <input class="vrouw" type="radio" name="btn">
+                <label for="gender-vrouw"> Vrouw</label><br>
+                <input class="man" type="radio" name="btn">
+                <label for="gender-man"> Man</label><br>
+                <input class="gender-btn" type="radio" name="btn">
+                <label for="gender-other">Anders</label>
+            </p>
+            <p>
+                <h3>Favoriete Cuisine:</h3>
+                <input class="input-frans" type="checkbox" name="frans">
+                <label for="frans">Frans</label><br>                    
+                <input class="input-italiaans" type="checkbox" name="italiaans">
+                <label for="italiaans">Italiaans</label><br>
+                <input class="input-spaans" type="checkbox" name="spaans">
+                <label for="spaans">Spaans</label><br>                       
+                <input class="input-arabisch" type="checkbox" name="arabisch">
+                <label for="arabisch">Arabisch</label>                    
+             </p>
+             <p>
+                <label for="favcolor"> Kies je favoriete kleur:</label>
+                <input type="color" class="favcolor" name="favcolor" value="#ff0000">
+            </p>
+            <p>
+                <label for="biografie">Biografie</label>
+                <textarea class="textarea" name="biografie" rows="5" cols="75"></textarea>
+                </p>
+            <p>
+                <label for="file">Upload je laatste recept:</label> 
+                <input type="file" name="file" class="file">
+                </p>
+            <p>    
+                <label for="homepage">Url naar je website</label>
+                <input class="homepage" type="url" name="homepage">
+                </p>
+            <p>
+                <input class="reset" type="reset" name="reset"/>
+                <input class="submit" type="submit" name="submit"/>
+                </p>  
+            </form>
+            <p>
+                Contactgegevens:<br>
+                S.Tentua<br>
+                 <nav class="email">
+                    <a href="fakeemail@example.com">Email me</a>
+                </nav>
+            </p>
+        </main>
+        <footer class="soft-border">
+           <p>Copyright S.Tentua</p>
+        </footer>
+    </body>           
+</html>
